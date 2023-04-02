@@ -119,3 +119,14 @@ with demo_exp:
     col1, col2, col3 = st.columns([1, 4, 1])
     with col2:
         st.video('./resources/demo.mp4')
+
+# Additional Demo Section
+additional_demo = st.container()
+additional_demo_exp = additional_demo.expander('Explore Our Platform Features!')
+with additional_demo_exp:
+    st.markdown("<h3 style='text-align: center;'>Get to know the various features and pages on our platform, including the About, Documentation, Pricing, and Support pages. This engaging video tour will walk you through everything you need to know about our website, its offerings, and how to navigate it with ease. Learn how to make the most of our platform to enhance your experience with IdenTweety!</h3>", unsafe_allow_html=True)
+
+    # Center the video and set its width using columns
+    col1, col2, col3 = st.columns([1, 4, 1])
+    with col2:
+        st.video('./resources/additional_demo.mp4')
