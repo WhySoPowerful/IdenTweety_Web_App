@@ -118,9 +118,10 @@ with demo_exp:
     # Center the video and set its width using columns
     col1, col2, col3 = st.columns([1, 4, 1])
     with col2:
-        st.video('./resources/demo.mp4')
+        video_url = "https://www.youtube.com/watch?v=jGrNVKyqW-I"
+        st.video(video_url)
 
-# Additional Demo Section
+# Additional Demo section
 additional_demo = st.container()
 additional_demo_exp = additional_demo.expander('Explore Our Platform Features!')
 with additional_demo_exp:
@@ -129,4 +130,6 @@ with additional_demo_exp:
     # Center the video and set its width using columns
     col1, col2, col3 = st.columns([1, 4, 1])
     with col2:
-        st.video('./resources/additional_demo.mp4')
+        additional_video_url = "https://www.youtube.com/watch?v=xezhFNY4QM8"
+        st.video(additional_video_url)
+

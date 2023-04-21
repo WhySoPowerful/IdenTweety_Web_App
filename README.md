@@ -5,6 +5,7 @@ To set up and use the app, follow the instructions in the README.md file, which 
 ## Requirements
 Requires Python 3.8+.
 ## Dependencies
+- bcrypt
 - botometer
 - python-dotenv
 - secure-smtplib
